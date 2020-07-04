@@ -2,9 +2,9 @@ Element.prototype.JSON = function () {
     var that = this;
 
     var config = {
-        splitChar: "﹒", // salt
+        splitChar: "﹒",   // salt
         attribute: "json", // attribute name
-        encryption: 1 // multiplier
+        encryption: 1      // multiplier
     }
 
     return {
